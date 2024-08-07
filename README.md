@@ -11,3 +11,14 @@ When using wp-all-import to bulk import data from CSV files, extra fields were n
 <b>Description: </b> Modified the way extra fields are sent or added during the import process.
 
 
+### Changes Made:
+  ```
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll(".wpallimport-custom-fields .wp_all_import_autocomplete")[0].value = 'lp_listingpro_options_fields';
+        document.querySelectorAll(".wpallimport-custom-fields textarea")[0].value = 'Company: \nAddress: \nP.O. BOX: \nIsland/State/Province: \nCountry: \nTelephone Number(s):\nBusiness Email Address:\nServices I Offer:\nFeatures: \n';
+    });
+</script>
+  ```
+
+
