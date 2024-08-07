@@ -6,6 +6,8 @@ When using wp-all-import to bulk import data from CSV files, extra fields were n
 
 ## Changes Made
 ### 1. Adjusting Extra Fields Addition
-<b>File Location:</b> C:\Users\User\Local Sites\doc\app\public\wp-content\plugins\wp-all-import-pro\views\admin\import\template\_custom_fields_template.php
+<b>File Location: </b> C:\Users\User\Local Sites\doc\app\public\wp-content\plugins\wp-all-import-pro\views\admin\import\template\_custom_fields_template.php
+
+<b>Description: </b> Modified the way extra fields are sent or added during the import process.
 
 
