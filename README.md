@@ -6,7 +6,7 @@ When using wp-all-import to bulk import data from CSV files, extra fields were n
 
 ## Changes Made
 ### 1. Adjusting Extra Fields Addition
-<b>File Location: </b> C:\Users\User\Local Sites\doc\app\public\wp-content\plugins\wp-all-import-pro\views\admin\import\template\_custom_fields_template.php
+<b>File Location: </b> wp-content\plugins\wp-all-import-pro\views\admin\import\template\_custom_fields_template.php
 
 <b>Description: </b> Modified the way extra fields are sent or added during the import process.
 
@@ -24,7 +24,7 @@ When using wp-all-import to bulk import data from CSV files, extra fields were n
 ![27ac40c3-01eb-4e79-b434-101c81560aa7](https://github.com/user-attachments/assets/a7d07d21-7694-469d-ad8a-5ada6ceb94ac)
 
 ### 2. Handling Data Storage in Database: 
-<b>File Location: </b>  C:\Users\User\Local Sites\doc\app\public\wp-content\plugins\wp-all-import-pro\models\import\record.php
+<b>File Location: </b>  wp-content\plugins\wp-all-import-pro\models\import\record.php
 
 <b>Description: </b>  Manipulated data types to ensure extra fields are stored correctly in the database and displayed in the admin panel.
 
